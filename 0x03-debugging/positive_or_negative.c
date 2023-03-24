@@ -1,27 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * positve_or_negative - checking for number that is negative, negative or zero
- * @i: integer 
- * Return: if n greater than zero print positive, else negative
+ * positive_or_negative - prints number whether (0)positve or negative or 0
+ * @i: integer
  */
 void positive_or_negative(int i)
-
 {
-	if (i >  0)
-	{
+	if (i > 0)
 		printf("%d is positive\n", i);
-
-	}
-	else if (i  <  0)
-	{	
+	else if (i < 0)
 		printf("%d is negative\n", i);
-
-	}
 	else
-	{
-		printf("%d is zero\i");
-	}
+		printf("%d is zero\n", i);
 }
