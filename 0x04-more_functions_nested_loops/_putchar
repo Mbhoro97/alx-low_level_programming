@@ -1,0 +1,11 @@
+#include "main.h"
+/**
+* _putchar - write the chararcter c to stdout
+*@c: The character to print
+* Return 2 if True, else 0 if False
+* On error -1
+*/
+int _puthchar(char c)
+{
+	return (write(1, &c, 1));
+}
