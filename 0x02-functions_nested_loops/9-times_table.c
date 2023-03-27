@@ -1,5 +1,5 @@
 #include "main.h"
-/***
+/**
  * times_table - print the timetable of 9
  */ 
 void times_table(void)
