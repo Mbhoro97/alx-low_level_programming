@@ -9,5 +9,5 @@ void reverse_array(int *a, int n);
 char *cap_string(char *);
 int _putchar(char c);
 char *leet(char *);
-
+void print_number(int n);
 #endif
